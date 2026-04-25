@@ -166,6 +166,5 @@ streamlit run app.py
 
 ## Author
 
-Kavy Bhalla
-B.Tech Computer Science
-Chandigarh University
+Kavya Bhalla
+
