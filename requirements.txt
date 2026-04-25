@@ -1,0 +1,24 @@
+# Grid07 — Requirements
+# Install: pip install -r requirements.txt
+
+# ── Core AI / LLM ──────────────────────────────
+langchain>=0.3.0
+langchain-core>=0.3.0
+langgraph>=0.2.0
+langchain-groq>=0.2.0        # Groq backend (recommended — free, fast)
+langchain-openai>=0.2.0      # OpenAI fallback
+
+# ── Embeddings ─────────────────────────────────
+torch==2.2.2
+torchvision==0.17.2
+sentence-transformers==2.6.1
+transformers==4.41.2
+# ── Vector Store ───────────────────────────────
+faiss-cpu>=1.8.0              # FAISS for cosine similarity search (CPU variant)
+
+# ── Structured Outputs ─────────────────────────
+pydantic>=2.7.0               # Schema validation for Phase 2 JSON output
+
+# ── Utilities ──────────────────────────────────
+python-dotenv>=1.0.0          # Load .env for API keys
+numpy>=1.26.0                 # Required by FAISS / sentence-transformers
