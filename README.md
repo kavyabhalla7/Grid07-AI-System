@@ -84,19 +84,19 @@ The system includes a Streamlit UI with two modes:
 
 ### Content Generation — Routing & Output
 
-![Content Generation](assets/content_generation.png)
+![Content Generation](assets/image.png)
 
 ---
 
 ### Finance Scenario — Routing Behavior
 
-![Finance Routing](assets/finance_routing.png)
+![Finance Routing](assets/image2.png)
 
 ---
 
 ### Combat Mode — Prompt Injection Defense
 
-![Combat Mode](assets/combat_mode.png)
+![Combat Mode](assets/image3.png)
 
 ---
 
